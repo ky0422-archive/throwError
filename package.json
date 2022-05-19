@@ -1,0 +1,25 @@
+{
+  "name": "@tsukiroku/throwerror",
+  "version": "6.9.7.4",
+  "description": "Throw error!",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "if [ -d dist ]; then rm -rf dist; tsc; else tsc; fi ",
+    "test": "yarn build && node ./dist/test/test.js"
+  },
+  "repository": "git+https://github.com/tsukiroku/throwError.git",
+  "keywords": [
+    "error"
+  ],
+  "author": "tsukiroku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsukiroku/throwError/issues"
+  },
+  "homepage": "https://github.com/tsukiroku/throwError#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.15.0"
+  }
+}
