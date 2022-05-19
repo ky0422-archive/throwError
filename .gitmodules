@@ -1,5 +1,7 @@
 [submodule "node"]
 url = "https://github.com/nodejs/node"
+path = "node_modules/node"
 
 [submodule "typescript"]
 url = "https://github.com/microsoft/TypeScript"
+path = "node_modules/typescript"
