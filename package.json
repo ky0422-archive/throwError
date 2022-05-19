@@ -1,8 +1,8 @@
 {
   "name": "@tsukiroku/throwerror",
-  "version": "6.9.7.4",
+  "version": "69.7.4",
   "description": "Throw error!",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "if [ -d dist ]; then rm -rf dist; tsc; else tsc; fi ",
     "test": "yarn build && node ./dist/test/test.js"
